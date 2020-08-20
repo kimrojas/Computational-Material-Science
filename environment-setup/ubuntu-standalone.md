@@ -46,7 +46,8 @@ For this guide, I will be using VMware which has a similar process to a hardware
 
 <p align="center">
   <a>
-    <img src="vmware/vm01.PNG" alt="Logo" width=300>
-    <img src="vmware/vm02.PNG" alt="Logo" width=300>
+    <img src="vmware/vm01.PNG" alt="Logo" width=250>
+    <img src="vmware/vm02.PNG" alt="Logo" width=250>
+    <img src="vmware/vm02.PNG" alt="Logo" width=250>
   </a>
 </p>
