@@ -33,31 +33,31 @@
 
 
 
-# Setting up the environment
+## Setting up the environment
 
-## Ubuntu setup standalone
+### Ubuntu setup standalone
 
 - A set of guidelines on a basic Ubuntu setup as a standalone or Virtual machine. <br> Needs a little more research on making it work with windows (for VM method).  <br> More information here. 
 
-## Ubuntu setup via WSL 2
+### Ubuntu setup via WSL 2
 
 - A set of guidelines to setup up the WSL 2 on Windows 10 with an **Ubuntu OS**. <br>Less complicated way of working in windows. <br> (More information here. )
 
-# Setting up the softwares
+## Setting up the softwares
 
-## Intel parallel studio
+### Intel parallel studio
 
 - A short guide into the installation of Intel-based compilers, mpi, and mkl. <br> More information here. 
 
-## Python via Anaconda
+### Python via Anaconda
 
 - A guide to install and use the anaconda python package manager. <br> More information here. 
 
-## Quantum espresso 
+### Quantum espresso 
 
 - A guide and build recipe for desktop-based quantum espresso. <br> A good way to learn and test quantum espresso. <br> More information here [Intel version]. 
 
-## VASP
+### VASP
 
 - A guide and build recipe for desktop-based VASP. <br> A good way to test the VASP build. <br> More information Here.
 
