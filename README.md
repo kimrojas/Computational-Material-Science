@@ -24,39 +24,42 @@
 # Table of contents
    * [Title](#gh-md-toc)
    * [Table of contents](#Table-of-contents)
-   * [Setting up the environment](#Ubuntu-OS)
-      * [Ubuntu setup standalone](#Basic-Ubuntu-setup)   
+   * [Setting up the environment](#Setting-up-the-environment)
+      * [Ubuntu setup standalone](#Ubuntu-setup-standalone)   
       * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
-<!--ts-->
-   * [Title](#gh-md-toc)
-   * [Table of contents](#Table-of-contents)
-   * [Setting up the environment](#Ubuntu-OS)
-      * [Ubuntu setup standalone](#Basic-Ubuntu-setup)   
-      * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
-
-
-   * [Basic Ubuntu setup](#Basic-Ubuntu-setup)
-   * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
-   * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
-<!--te-->
+   * [Setting up the softwares](#Setting-up-the-softwares)
+      * [Quantum espresso](#Ubuntu-setup-via-WSL-2)
 
 
 
 
-# Basic Ubuntu setup  
+# Setting up the environment
 
-- A set of guidelines on a basic Ubuntu setup as a standalone or Virtual machine. Needs a little more research on making it work with windows (for VM method).  <br> More information here. 
+## Ubuntu setup standalone
 
-# Ubuntu setup via WSL 2
+- A set of guidelines on a basic Ubuntu setup as a standalone or Virtual machine. <br> Needs a little more research on making it work with windows (for VM method).  <br> More information here. 
 
-- A set of guidelines in setting up the Windows Subsystem for Linux (WSL) 2 on Windows 10 with an **Ubuntu OS**. Less complicated way of working in windows. <br> More information here. 
+## Ubuntu setup via WSL 2
+
+- A set of guidelines to setup up the WSL 2 on Windows 10 with an **Ubuntu OS**. <br>Less complicated way of working in windows. <br> (More information here. )
+
+# Setting up the softwares
+
+## Intel parallel studio
+
+- A short guide into the installation of Intel-based compilers, mpi, and mkl. <br> More information here. 
+
+## Python via Anaconda
+
+- A guide to install and use the anaconda python package manager. <br> More information here. 
+
+## Quantum espresso 
+
+- A guide and build recipe for desktop-based quantum espresso. <br> A good way to learn and test quantum espresso. <br> More information here [Intel version]. 
+
+## VASP
+
+- A guide and build recipe for desktop-based VASP. <br> A good way to test the VASP build. <br> More information Here.
+
+
 
