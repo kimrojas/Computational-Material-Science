@@ -26,14 +26,14 @@
    * [Table of contents](#Table-of-contents)
    * [Setting up the environment](#Setting-up-the-environment)
       * [Ubuntu setup standalone](#Ubuntu-setup-standalone)   
-      * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
+      * [Ubuntu setup via WSL 2](###Ubuntu-setup-via-WSL-2)
    * [Setting up the softwares](#Setting-up-the-softwares)
       * [Quantum espresso](#Ubuntu-setup-via-WSL-2)
 
 
 
 
-## Setting up the environment
+# Setting up the environment
 
 ### Ubuntu setup standalone
 
@@ -41,9 +41,9 @@
 
 ### Ubuntu setup via WSL 2
 
-- A set of guidelines to setup up the WSL 2 on Windows 10 with an **Ubuntu OS**. <br>Less complicated way of working in windows. <br> (More information here. )
+- A set of guidelines to setup up the WSL 2 on Windows 10 with an **Ubuntu OS**. <br>Less complicated way of working in windows. <br> More information here.
 
-## Setting up the softwares
+# Setting up the softwares
 
 ### Intel parallel studio
 
