@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kimrojas/Computational-Material-Science">
-    <img src="readme_files/cms-01.png" alt="Logo" width=150>
+    <img src="readme_files/cms-01.png" alt="Logo" width=300>
   </a>
 
   <h3 align="center">Best-README-Template</h3>
