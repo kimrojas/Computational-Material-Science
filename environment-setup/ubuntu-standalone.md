@@ -30,6 +30,7 @@
 
 > For less than 8 GB RAM or less than i3 performance, Either install directly on hardware, switch to Lubuntu OS, or switch to WSL 2.
 > These are more lightweight options. Please be responsible of the programs you run in these PCs and take care not to burn your house. Stay safe. 
+> Of course, AMD ryzen CPUs can work as well. They should work similarly with intel but might have some problems with the compilers later on. These CPUs were not tested as I do not have any at hand. 
 
 
 # Ubuntu ISO image
