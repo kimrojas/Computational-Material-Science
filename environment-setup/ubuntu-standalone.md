@@ -23,7 +23,7 @@
 
 # Ubuntu ISO image
 
-Download Ubuntu ISO image from its [website](https://ubuntu.com/download/desktop)
+**Download Ubuntu ISO image from its [website](https://ubuntu.com/download/desktop)**
 
 At the time of writing, the latest ubuntu release is *ubuntu-20.04.1*
 
@@ -32,7 +32,7 @@ At the time of writing, the latest ubuntu release is *ubuntu-20.04.1*
 
 # Virtual Machine software
 
-Download [VMware workstation player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html), version 15.5 as of the time of writing. 
+**Download [VMware workstation player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html)**, version 15.5 as of the time of writing. 
 
 For this guide, I will be using VMware which has a similar process to a hardware install as well.   
 
@@ -42,12 +42,70 @@ For this guide, I will be using VMware which has a similar process to a hardware
 >- Hyper-V is complicated to use and is slow
 >- VMware workstation player is limited to 1 VM at a time but is fast.  
 
-# Install 
+# Install VMware Workstation Player
+
+Here we prepare the VMware Workstation Player. Follow the set-by-step closely. 
 
 <p align="center">
   <a>
-    <img src="vmware/vm01.PNG" alt="Logo" width=250>
-    <img src="vmware/vm02.PNG" alt="Logo" width=250>
-    <img src="vmware/vm02.PNG" alt="Logo" width=250>
+    <img alt="step01" src="vmware/vm01.PNG" alt="Logo" width=250>
+    <img alt="step02" src="vmware/vm02.PNG" alt="Logo" width=250> 
+    <br>
+    <img alt="step03" src="vmware/vm03.PNG" alt="Logo" width=250>
+    <img alt="step04" src="vmware/vm04.PNG" alt="Logo" width=250>
+    <br>
+    <img alt="step05" src="vmware/vm05.PNG" alt="Logo" width=250>
+    <img alt="step06" src="vmware/vm06.PNG" alt="Logo" width=250>
+    <br>
+    <img alt="step07" src="vmware/vm07.PNG" alt="Logo" width=250>
+    <img alt="step08"src="vmware/vm08.PNG" alt="Logo" width=250>
+    <br>
+    <img alt="step09"src="vmware/vm09.PNG" alt="Logo" width=250>
   </a>
+</p>
+
+# Create the Ubuntu Virtual machine
+
+Here we craete the Ubuntu Virtual machine. Follow the set-by-step closely.
+
+<p align="left">
+A. Run the VMworkstation Workstation Player <br>
+<img alt="step10" src="vmware/vm10.PNG" alt="Logo" width=250> <br>
+B. Create a NEW Virtual Machine. Choose <b>"I will install the operating system later"</b> <br>
+<img alt="step11" src="vmware/vm11.PNG" alt="Logo" width=250> <br>
+C. Choose Linux and Ubuntu options <br>
+<img alt="step12" src="vmware/vm12.PNG" alt="Logo" width=250> <br>
+D. Name the VM and set the save location. <br>
+<img alt="step13" src="vmware/vm13.PNG" alt="Logo" width=250> <br>
+E. Set maximum disk size at least 50 GB (it takes ~20 GB to setup the compilers and apps). <br>
+<img alt="step14" src="vmware/vm14.PNG" alt="Logo" width=250> <br>
+F. Adjust VM hardware options as needed. <br>
+<img alt="step15" src="vmware/vm15.PNG" alt="Logo" width=250> <br>
+G. The Ubuntu VM has been setup, but only in name. <br>
+<img alt="step16" src="vmware/vm16.PNG" alt="Logo" width=250> <br>
+
+# Install the Ubuntu OS
+
+The Ubuntu VM has been setup but does not really contain the Ubuntu OS yet. 
+
+**DO NOT TOUCH THE INSTALL TOOL YET**
+
+A. Load the Ubuntu ISO that was downloaded earlier. <br>
+<img alt="step17" src="vmware/vm17.PNG" alt="Logo" width=250> <br>
+B. On Software Updates, select <b>Download and Install</b>.<br> <i>(I honestly don't know what it does.. just install)</i> <br>
+<img alt="step18" src="vmware/vm18.PNG" alt="Logo" width=250> <br>
+C. Click `Install` button. <br>
+<img alt="step19" src="vmware/vm19.PNG" alt="Logo" width=250> <br>
+D. Select you keyboard layout. <br>
+<img alt="step20" src="vmware/vm20.PNG" alt="Logo" width=250> <br>
+E. Select Installation type <br>
+<i> Minimal installation if you don't need other apps </i><br>
+<i> I unselected `other options` 'cause installation takes longer </i> <br>
+<img alt="step21" src="vmware/vm21.PNG" alt="Logo" width=250> <br>
+F. Select `Advanced features` and `Use LVM with the new Ubuntu Installation`. <br>
+<img alt="step20" src="vmware/vm20.PNG" alt="Logo" width=250> <br>
+
+
+
+
 </p>
