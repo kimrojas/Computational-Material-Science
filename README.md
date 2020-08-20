@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -19,6 +27,7 @@
     ·
     <a href="https://github.com/kimrojas/Computational-Material-Science/issues">Request Feature</a>
   </p>
+  
 </p>
 
 # Table of contents
@@ -30,9 +39,6 @@
       * [Python via Anaconda](#Python-via-Anaconda)
       * [Quantum espresso](#Quantum-espresso)
       * [VASP](#VASP)
-
-
-
 
 # Setting up the environment
 
