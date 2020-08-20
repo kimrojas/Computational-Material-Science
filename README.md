@@ -23,13 +23,13 @@
 
 # Table of contents
    * [Setting up the environment](#Setting-up-the-environment)
-      * [Ubuntu setup standalone](###Ubuntu-setup-standalone)   
-      * [Ubuntu setup via WSL 2](###Ubuntu-setup-via-WSL-2)
+      * [Ubuntu setup standalone](#Ubuntu-setup-standalone)   
+      * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
    * [Setting up the softwares](#Setting-up-the-softwares)
-      * [Intel parallel studio](###Intel-parallel-studio)
-      * [Python via Anaconda](###Python-via-Anaconda)
-      * [Quantum espresso](###Quantum-espresso)
-      * [VASP](###VASP)
+      * [Intel parallel studio](#Intel-parallel-studio)
+      * [Python via Anaconda](#Python-via-Anaconda)
+      * [Quantum espresso](#Quantum-espresso)
+      * [VASP](#VASP)
 
 
 
