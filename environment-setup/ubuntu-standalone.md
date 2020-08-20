@@ -21,6 +21,11 @@
     <a href="https://github.com/kimrojas/Computational-Material-Science/issues">Request Feature</a>
   </p>
 
+# Requirements
+
+1. 50 GB free space
+2. 
+
 # Ubuntu ISO image
 
 **Download Ubuntu ISO image from its [website](https://ubuntu.com/download/desktop)**
@@ -48,19 +53,19 @@ Here we prepare the VMware Workstation Player. Follow the set-by-step closely.
 
 <p align="center">
   <a>
-    <img alt="step01" src="vmware/vm01.PNG" alt="Logo" width=300>
-    <img alt="step02" src="vmware/vm02.PNG" alt="Logo" width=300> 
+    <img alt="step01" src="vmware/vm01.PNG" alt="Logo" width=500>
+    <img alt="step02" src="vmware/vm02.PNG" alt="Logo" width=500> 
     <br>
-    <img alt="step03" src="vmware/vm03.PNG" alt="Logo" width=300>
-    <img alt="step04" src="vmware/vm04.PNG" alt="Logo" width=300>
+    <img alt="step03" src="vmware/vm03.PNG" alt="Logo" width=500>
+    <img alt="step04" src="vmware/vm04.PNG" alt="Logo" width=500>
     <br>
-    <img alt="step05" src="vmware/vm05.PNG" alt="Logo" width=300>
-    <img alt="step06" src="vmware/vm06.PNG" alt="Logo" width=300>
+    <img alt="step05" src="vmware/vm05.PNG" alt="Logo" width=500>
+    <img alt="step06" src="vmware/vm06.PNG" alt="Logo" width=500>
     <br>
-    <img alt="step07" src="vmware/vm07.PNG" alt="Logo" width=300>
-    <img alt="step08"src="vmware/vm08.PNG" alt="Logo" width=300>
+    <img alt="step07" src="vmware/vm07.PNG" alt="Logo" width=500>
+    <img alt="step08"src="vmware/vm08.PNG" alt="Logo" width=500>
     <br>
-    <img alt="step09"src="vmware/vm09.PNG" alt="Logo" width=300>
+    <img alt="step09"src="vmware/vm09.PNG" alt="Logo" width=500>
   </a>
 </p>
 
@@ -70,19 +75,19 @@ Here we craete the Ubuntu Virtual machine. Follow the set-by-step closely.
 
 <p align="left">
 A. Run the VMware Workstation Player <br>
-<img alt="step10" src="vmware/vm10.PNG" alt="Logo" width=300> <br>
+<img alt="step10" src="vmware/vm10.PNG" alt="Logo" width=500> <br>
 B. Create a NEW Virtual Machine. Choose <b>"I will install the operating system later"</b> <br>
-<img alt="step11" src="vmware/vm11.PNG" alt="Logo" width=300> <br>
+<img alt="step11" src="vmware/vm11.PNG" alt="Logo" width=500> <br>
 C. Choose Linux and Ubuntu options <br>
-<img alt="step12" src="vmware/vm12.PNG" alt="Logo" width=300> <br>
+<img alt="step12" src="vmware/vm12.PNG" alt="Logo" width=500> <br>
 D. Name the VM and set the save location. <br>
-<img alt="step13" src="vmware/vm13.PNG" alt="Logo" width=300> <br>
+<img alt="step13" src="vmware/vm13.PNG" alt="Logo" width=500> <br>
 E. Set maximum disk size at least 50 GB (it takes ~20 GB to setup the compilers and apps). <br>
-<img alt="step14" src="vmware/vm14.PNG" alt="Logo" width=300> <br>
+<img alt="step14" src="vmware/vm14.PNG" alt="Logo" width=500> <br>
 F. Adjust VM hardware options as needed. <br>
-<img alt="step15" src="vmware/vm15.PNG" alt="Logo" width=300> <br>
+<img alt="step15" src="vmware/vm15.PNG" alt="Logo" width=500> <br>
 G. The Ubuntu VM has been setup, but only in name. <br>
-<img alt="step16" src="vmware/vm16.PNG" alt="Logo" width=300> <br>
+<img alt="step16" src="vmware/vm16.PNG" alt="Logo" width=500> <br>
 
 # Install the Ubuntu OS
 
@@ -91,23 +96,23 @@ The Ubuntu VM has been setup but does not really contain the Ubuntu OS yet.
 **DO NOT TOUCH THE INSTALL TOOL YET**
 
 A. Load the Ubuntu ISO that was downloaded earlier. <br>
-<img alt="step17" src="vmware/vm17.PNG" alt="Logo" width=300> <br>
+<img alt="step17" src="vmware/vm17.PNG" alt="Logo" width=500> <br>
 B. On Software Updates, select <b>Download and Install</b>.<br> <i>(I honestly don't know what it does.. just install)</i> <br>
-<img alt="step18" src="vmware/vm18.PNG" alt="Logo" width=300> <br>
+<img alt="step18" src="vmware/vm18.PNG" alt="Logo" width=500> <br>
 C. Click `Install` button. <br>
-<img alt="step19" src="vmware/vm19.PNG" alt="Logo" width=300> <br>
+<img alt="step19" src="vmware/vm19.PNG" alt="Logo" width=500> <br>
 D. Select you keyboard layout. <br>
-<img alt="step20" src="vmware/vm20.PNG" alt="Logo" width=300> <br>
+<img alt="step20" src="vmware/vm20.PNG" alt="Logo" width=500> <br>
 E. Select Installation type <br>
 <i> Minimal installation if you don't need other apps </i><br>
 <i> I unselected `other options` 'cause installation takes longer </i> <br>
-<img alt="step21" src="vmware/vm21.PNG" alt="Logo" width=300> <br>
+<img alt="step21" src="vmware/vm21.PNG" alt="Logo" width=500> <br>
 F. Select `Advanced features` and `Use LVM with the new Ubuntu Installation`. <br>
-<img alt="step22" src="vmware/vm22.PNG" alt="Logo" width=300> <br>
+<img alt="step22" src="vmware/vm22.PNG" alt="Logo" width=500> <br>
 G. Go through the other steps on your own. You will be prompted to restart and you will end up with this. Click `Remind Me Later` <br>
-<img alt="step29" src="vmware/vm29.PNG" alt="Logo" width=300> <br>
+<img alt="step29" src="vmware/vm29.PNG" alt="Logo" width=500> <br>
 H. Congratulations! Ubuntu is now installed. <br>
-<img alt="step30" src="vmware/vm30.PNG" alt="Logo" width=300> <br>
+<img alt="step30" src="vmware/vm30.PNG" alt="Logo" width=500> <br>
 </p>
 
 # Basic setup for Ubuntu
@@ -130,6 +135,7 @@ This setup will install useful functionalities for cross compatability between t
 Here select the `Install tools` button
 
 open the terminal and follow the codes below:
+*PLEASE ADAPT THE PATH OF THE `VMware Tools` ACCORDING TO YOUR SYSTEM*
 
 ```
 # Create a local copy of the installation modules
