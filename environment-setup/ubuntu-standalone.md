@@ -24,7 +24,13 @@
 # Requirements
 
 1. 50 GB free space
-2. 
+2. Windows 10 system (Mac not tested)
+3. 8 GB RAM (minimum) 
+4. at least CORE-series Intel CPU (minimum i3 performance)
+
+> For less than 8 GB RAM or less than i3 performance, Either install directly on hardware, switch to Lubuntu OS, or switch to WSL 2.
+> These are more lightweight options. Please be responsible of the programs you run in these PCs and take care not to burn your house. Stay safe. 
+
 
 # Ubuntu ISO image
 
