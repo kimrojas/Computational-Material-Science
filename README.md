@@ -1,10 +1,4 @@
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][https://github.com/kimrojas/Computational-Material-Science/network/members]
-[![Stargazers][stars-shield]][https://github.com/kimrojas/Computational-Material-Science/stargazers]
-[![Issues][issues-shield]][issues-url]  
-[![MIT License][license-shield]][LICENSE]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -33,8 +27,8 @@
 
 # Table of contents
    * [Setting up the environment](#Setting-up-the-environment)
-      * [Ubuntu setup standalone](#Ubuntu-setup-standalone)   
-      * [Ubuntu setup via WSL 2](#Ubuntu-setup-via-WSL-2)
+      * [Ubuntu standalone setup](#Ubuntu-standalone-setup)   
+      * [Ubuntu via WSL 2 setup ](#Ubuntu-via-WSL-2-setup)
    * [Setting up the softwares](#Setting-up-the-softwares)
       * [Intel parallel studio](#Intel-parallel-studio)
       * [Python via Anaconda](#Python-via-Anaconda)
@@ -43,11 +37,11 @@
 
 # Setting up the environment
 
-### Ubuntu setup standalone
+### Ubuntu standalone setup
 
-- A set of guidelines on a basic Ubuntu setup as a standalone or Virtual machine. <br> Needs a little more research on making it work with windows (for VM method).  <br> More information here. 
+- A set of guidelines on a basic Ubuntu setup as a standalone or Virtual machine. <br> Needs a little more research on making it work with windows (for VM method).  <br> [More information here](environment-setup/ubuntu-standalone.md). 
 
-### Ubuntu setup via WSL 2
+### Ubuntu via WSL 2 setup
 
 - A set of guidelines to setup up the WSL 2 on Windows 10 with an **Ubuntu OS**. <br>Less complicated way of working in windows. <br> More information here.
 
