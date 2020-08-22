@@ -141,7 +141,7 @@ This setup will install useful functionalities for cross compatability between t
 
 Here select the `Install tools` button
 
-open the terminal and follow the codes below:
+open the terminal and follow the codes below:  
 *PLEASE ADAPT THE PATH OF THE `VMware Tools` ACCORDING TO YOUR SYSTEM*
 
 ```
