@@ -5,17 +5,16 @@ from time import sleep
 import subprocess  as sp
 
 py=sp.check_output("which python3", shell=True).strip().decode('ascii')
-ver=sp.check_output("python -V", shell=True).strip().decode('ascii')
-print("PYTHON: ", py)
-print(ver)
+ver=sp.check_output("python -V", shell=True).strip().decode('ascii').strip()
+print(ver, "||", py, "\n- - -")
 
 
 
 
 # --------------------------------------------------------------------------------------------------
 def help ():
-    print (f"""
-usage: {sys.argv[0]} [-h] -i INPUT [-o OUTPUT]
+    print (f"""\
+usage: expand_cell.py [-h] -i INPUT [-o OUTPUT]
 
 Expands the unit cell in the x,y, and z direction thus creating a supercell. 
 ** Follow file formatting carefully. 
@@ -78,13 +77,19 @@ def main():
     opt, args = sys.argv[1::2], sys.argv[2::2]
     if any(i in opt for i in ['-h', '--help']): help()
         
+
     for i in range(len(opt)):
         if opt[i] in ['-i', '--input']: inp_f = args[i]
         if opt[i] in ['-o', '--output']: out_f = args[i]
 
+
     # Read data
 
-    inp_data = open(inp_f, 'r')
+    try: 
+        inp_data = open(inp_f, 'r')
+    except:
+        print ("* ERROR: Input file does not exist:", inp_f, "\n- - -")
+        help()
     Lines = inp_data.read().splitlines()
 
     ## Separate elements with empty line filter
