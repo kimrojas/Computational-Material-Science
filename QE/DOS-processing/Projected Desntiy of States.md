@@ -29,7 +29,6 @@ cat << EOF > $INPUT
     filpdos='base',
     filproj='base.filproj'
     Emin=-20.0, Emax=20.0,
-    degauss=0.005,
 
  /
 EOF
