@@ -36,7 +36,7 @@ Mo	0.000000	0.000000	7.063556
 S	1.592033	0.919161	8.627113
 S	1.592033	0.919161	5.500000
 
-K_POINTS (crystal_b)
+K_POINTS (crystal_b)                            ! Get the k-path coordinate using xcrysden.
 4
 0.00000  0.00000 0.00000 30 !G
 0.50000 -0.50000 0.00000 20 !M
