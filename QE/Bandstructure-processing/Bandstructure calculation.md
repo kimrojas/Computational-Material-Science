@@ -2,10 +2,10 @@
 
 This is a step-by-step guide in doing a band structure calculation.
 
-Required:
-Quantum espresso (serial/parallel)
-XCRYSDEN
-matplotlib
+**Required:**
+ - Quantum espresso (serial/parallel)
+ - XCRYSDEN
+ - matplotlib
 
 ### Relaxation
 
