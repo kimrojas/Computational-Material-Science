@@ -1,5 +1,5 @@
 &bands
  prefix = 'MoS2'
  outdir = './outdir'
- filband= 'mos2.bands.dat'
+ filband= 'mos2.bands.dat'   ! output file
 /
