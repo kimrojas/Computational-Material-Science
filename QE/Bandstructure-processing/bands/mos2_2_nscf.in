@@ -37,6 +37,6 @@ S	1.592033	0.919161	8.627113
 S	1.592033	0.919161	5.500000
 
 K_POINTS (automatic)
-    20 20 1 0 0 0
+    20 20 1 0 0 0                           ! Increase K_POINTS (at least 2x the value you used in your scf calc, better if you triple it).
 
 
