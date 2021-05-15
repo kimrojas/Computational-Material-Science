@@ -1,14 +1,14 @@
-# Band Structure Calculation
+## Band Structure Calculation
 
-## Relaxation
+### Relaxation
 
-## scf calculation
+### scf calculation
 
-## nscf calculation
+### nscf calculation
 
-## pw.x bands calculation
+### pw.x bands calculation
 
-## bands.x calculation
+### bands.x calculation
 
-## Plotting
+### Plotting
 
