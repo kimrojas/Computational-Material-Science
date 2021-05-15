@@ -1,0 +1,40 @@
+&CONTROL
+    calculation = 'scf',
+    prefix      = 'MoS2',
+    outdir      = './outdir'
+    pseudo_dir  = '/home/melsa.ducut/scratch2/all_pbe_UPF'
+    wf_collect  = .true.,
+    disk_io     = 'low',
+    verbosity   = 'high',
+/
+
+&SYSTEM
+    ibrav = 4, A = 3.1833343, C = 15.0000000,
+    nat = 3, ntyp = 2,
+    ecutwfc = 80
+    ecutrho = 640
+    nspin = 2
+    occupations = 'smearing'
+    smearing = 'gaussian'
+    degauss = 1.00000e-02
+    starting_magnetization(1) = 2.00000e-01
+    starting_magnetization(2) = 0.00000e+00
+/
+
+&ELECTRONS
+    electron_maxstep = 100,
+    conv_thr = 1.00000e-09,
+    mixing_mode = 'local-TF',
+/
+
+ATOMIC_SPECIES
+Mo 95.94000	mo_pbe_v1.uspp.F.UPF
+S  32.06600	s_pbe_v1.4.uspp.F.UPF
+
+ATOMIC_POSITIONS (angstrom)
+Mo	0.000000	0.000000	7.063556
+S	1.592033	0.919161	8.627113
+S	1.592033	0.919161	5.500000
+
+K_POINTS (automatic)
+     7 7 1 0 0 0
