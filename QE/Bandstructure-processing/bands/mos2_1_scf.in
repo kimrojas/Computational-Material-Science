@@ -9,7 +9,7 @@
 /
 
 &SYSTEM
-    ibrav = 4, A = 3.1833343, C = 15.0000000,
+    ibrav = 4, A = 3.1833343, C = 15.0000000,    ! Change A value to the new lattice parameter.
     nat = 3, ntyp = 2,
     ecutwfc = 80
     ecutrho = 640
