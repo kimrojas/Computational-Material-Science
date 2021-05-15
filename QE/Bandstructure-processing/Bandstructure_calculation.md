@@ -65,4 +65,4 @@ Make sure you increase the K_POINTS in your nscf calculation.
 14. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suite your need.
  
 ***NOTE:*** 
-Make sure to change the values needed.
+Make sure to change the values needed, like the Fermi Energy level, based on your own calculation.
