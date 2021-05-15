@@ -1,5 +1,12 @@
 ## Band Structure Calculation
 
+This is a step-by-step guide in doing a band structure calculation.
+
+Required:
+Quantum espresso (serial/parallel)
+XCRYSDEN
+matplotlib
+
 ### Relaxation
 
 ### scf calculation
