@@ -1,5 +1,5 @@
 &CONTROL
-    calculation = 'bands',
+    calculation = 'bands',                                          ! Do NOT forget to change this to 'bands'
     prefix = 'MoS2',
     outdir  = './outdir'
     pseudo_dir = '/home/melsa.ducut/scratch2/all_pbe_UPF'
