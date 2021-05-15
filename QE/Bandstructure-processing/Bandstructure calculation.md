@@ -1,8 +1,14 @@
-# Title
+# Band Structure Calculation
 
-[FOR MORE INFO ABOUT FORMATTING, VISIT](https://guides.github.com/features/mastering-markdown/)
-## Part 1
+## Relaxation
 
-## Part 2
+## scf calculation
 
-## Part 3
+## nscf calculation
+
+## pw.x bands calculation
+
+## bands.x calculation
+
+## Plotting
+
