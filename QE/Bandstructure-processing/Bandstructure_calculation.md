@@ -44,13 +44,14 @@ In my input, I used A (not celldm(1)), so I needed to convert the new lattice ve
 </br> 6.0156299844 Bohr = 3.1833343 Angstrom
 
 7. Use the new lattice parameter *A* (or celldm(1)) for the succeeding calculations.
-8. Run the command ``` pw.x -in mos2_1_scf.in > mos2_1_scf.out ``` . (See input file in the bands folder)
+8. Run the command ``` pw.x -in mos2_1_scf.in > mos2_1_scf.out ``` . (See sample input file in the bands folder)
 
 ### nscf calculation
-9. Run the command ``` pw.x -in mos2_2_nscf.in > mos2_2_nscf.out ``` . (See input file in the bands folder)
+9. Run the command ``` pw.x -in mos2_2_nscf.in > mos2_2_nscf.out ``` . (See sample input file in the bands folder)
 
 ***NOTE:*** 
-Make sure you increase the K_POINTS in your nscf calculation.
+ - Make sure you increase the K_POINTS in your nscf calculation.
+ - The input file is the same as the scf calculation input file. **The only parameter you need to change is the K_POINTS.**
 
 ### pw.x bands calculationk
 10. Using xcrysden, open any of your previous input files (relaxation, scf, nscf). Go to Tools then click k-path selection.
@@ -65,4 +66,4 @@ Make sure you increase the K_POINTS in your nscf calculation.
 14. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suite your need.
  
 ***NOTE:*** 
-Make sure to change the values needed, like the Fermi Energy level, based on your own calculation.
+Make sure to change the values needed, like the Fermi Energy, based on your own calculation.
