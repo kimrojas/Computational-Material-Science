@@ -51,13 +51,17 @@ In my input, I used A (not celldm(1)), so I needed to convert the new lattice ve
 
 ***NOTE:*** 
  - Make sure you increase the K_POINTS in your nscf calculation.
- - The input file is the same as the scf calculation input file. **The only parameter you need to change is the K_POINTS.**
+ - The input file is almost the same as the scf calculation input file. **The only parameter you need to change is the K_POINTS.**
 
 ### pw.x bands calculationk
 10. Using xcrysden, open any of your previous input files (relaxation, scf, nscf). Go to Tools then click k-path selection.
 11. Draw the k-path you want to calculate. You will see the corresponding coordinates on the right panel.
 12. Run the command ``` pw.x -in mos2_3_pwbands.in > mos2_3_pwbands.out ``` . (See input file in the bands folder)
- 
+
+***NOTE:*** 
+ - Make sure to get the appropriate k-path for your calculation.
+ - The input file is almost the same as the scf and nscf calculation input file. **The only parameter you need to change is the K_POINTS.**
+
 ### bands.x calculation
 13. Run the command ``` bands.x -in mos2_4_bands.in > mos2_4_bands.out ```.  (See input file in the bands folder)
 
