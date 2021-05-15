@@ -2,7 +2,7 @@
     calculation = 'vc-relax',
     prefix = 'MoS2',
     outdir = './outdir'
-    pseudo_dir = '/home/melsa.ducut/scratch2/all_pbe_UPF'
+    pseudo_dir = '/home/melsa.ducut/scratch2/all_pbe_UPF'   ! Please change this to the directory of the pseudopotential you ar eusing. 
     wf_collect = .true.,
     disk_io    = 'low',
     verbosity  = 'high',
@@ -11,11 +11,11 @@
 /
 
 &SYSTEM
-    ibrav = 4, A = 3.1840667, C = 15.0000000,
+    ibrav = 4, A = 3.1840667, C = 15.0000000,               ! A is the lattice constance in Angstrom.
     nat = 3, ntyp = 2,
-    ecutwfc = 80
-    ecutrho = 640
-    nspin = 2
+    ecutwfc = 80                                            ! Be sure to do ecutwfc convergence test.
+    ecutrho = 640                                           ! ecutrho should be at least 4x ecutwfc. 8x or more if you are using USSP pseudopotential. 
+    nspin = 2                                               ! Spin-polarized calculation.
     occupations = 'smearing'
     smearing = 'gaussian'
     degauss = 1.00000e-02
@@ -25,7 +25,7 @@
 
 &ELECTRONS
     electron_maxstep = 100,
-    conv_thr = 1.00000e-09,
+    conv_thr = 1.00000e-09,                                 ! conv_thr is set to 1.00000e-09 to attain great accuracy in the calculation, specially in a small supercell.
     mixing_mode = 'local-TF',
 /
 
@@ -40,7 +40,7 @@
 /
 
 ATOMIC_SPECIES
-Mo	95.94000	mo_pbe_v1.uspp.F.UPF
+Mo	95.94000	mo_pbe_v1.uspp.F.UPF                        ! Feel free to use the pseudopotential appropriate for your calculation. There are available repositories online. 
 S	32.06600	s_pbe_v1.4.uspp.F.UPF
 
 ATOMIC_POSITIONS (angstrom)
@@ -49,4 +49,4 @@ S	1.592033	0.919161	8.627113
 S	1.592033	0.919161	5.500000
 
 K_POINTS (automatic)
-   7 7 1 0 0 0
+   7 7 1 0 0 0                                              ! Be sure to do K_POINTS convergence test.
