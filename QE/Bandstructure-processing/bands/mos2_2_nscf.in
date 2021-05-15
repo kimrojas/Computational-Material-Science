@@ -1,5 +1,5 @@
 &CONTROL
-    calculation = 'nscf',
+    calculation = 'nscf',                                       ! Do NOT forget the change this to nscf.
     prefix      = 'MoS2',
     outdir      = './outdir'
     pseudo_dir  = '/home/melsa.ducut/scratch2/all_pbe_UPF'
