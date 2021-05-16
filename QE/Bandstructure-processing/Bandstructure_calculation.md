@@ -67,7 +67,7 @@ In my input, I used A (not celldm(1)), so I needed to convert the new lattice ve
 
 ### Plotting
 
-14. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suit your need.
+14. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suit your own calculation.
  
 ***NOTE:*** 
 Make sure to change the values needed, like the Fermi Energy, based on your own calculation.
