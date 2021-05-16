@@ -1,6 +1,6 @@
 ## Band Structure Calculation
 
-This is a step-by-step guide in doing a band structure calculation. For this guide, I used MoS2. The sample input files are in the corresponding folder. I also added comments on the input files.
+This is a step-by-step guide in doing a band structure calculation. For this guide, I used MoS2. The sample input files are in their corresponding folder. I also added comments on the input files.
 
 
 **Required:**
@@ -40,7 +40,7 @@ End final coordinates
 ```
 
 ***NOTE:*** 
-In my input, I used A (not celldm(1)), so I needed to convert the new lattice vector to Angstrom. 
+In my input, I used A (not celldm(1)), so I needed to convert the new lattice parameter to Angstrom. 
 </br> 6.0156299844 Bohr = 3.1833343 Angstrom
 
 7. Use the new lattice parameter *A* (or celldm(1)) for the succeeding calculations.
@@ -67,7 +67,8 @@ In my input, I used A (not celldm(1)), so I needed to convert the new lattice ve
 
 ### Plotting
 
-14. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suit your own calculation.
+14. Get the mos2.bands.dat. This is the file you need to plot.
+15. Use the sample code **bands.ipynb** (see plotting folder). Edit the code to appropriately suit your own calculation.
  
 ***NOTE:*** 
 Make sure to change the values needed, like the Fermi Energy, based on your own calculation.
